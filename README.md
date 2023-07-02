@@ -1,6 +1,6 @@
 ### Cara Pakai :
 
-Instalasi `go get -u github.com/zahrulsch/golog`
+Instalasi `go get -u github.com/zahrulsch/golog@latest`
 
 ```go
 package main
