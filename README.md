@@ -26,7 +26,7 @@ func main() {
 
 ```
 
-| Parameter       | Type   | IsRequired |
-| --------------- | ------ | ---------- |
-| **logFilePath** | string | true       |
-| **appName**     | string | true       |
+| Parameter       | Tipe Data | Deskripsi       |
+| --------------- | --------- | --------------- |
+| **logFilePath** | string    | Lokasi file log |
+| **appName**     | string    | Nama aplikasi   |
