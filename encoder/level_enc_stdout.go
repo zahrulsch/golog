@@ -22,6 +22,6 @@ func LevelEncoderStdout(l zapcore.Level, pae zapcore.PrimitiveArrayEncoder) {
 		colorLevel.Set().Add(color.FgWhite)
 	}
 
-	result := fmt.Sprintf("[%v]", colorLevel.Sprint(level))
+	result := fmt.Sprintf("%v", colorLevel.Sprint(level))
 	pae.AppendString(result)
 }

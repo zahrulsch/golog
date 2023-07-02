@@ -8,5 +8,5 @@ import (
 
 func LevelEncoderFile(l zapcore.Level, pae zapcore.PrimitiveArrayEncoder) {
 	level := l.CapitalString()
-	pae.AppendString(fmt.Sprintf("[%s]", level))
+	pae.AppendString(fmt.Sprintf("%s", level))
 }
